@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="res">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="idcard">
+      <UniqueIdentifier>{00cff4c3-f893-4139-9a4d-bc44d5554781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pub">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>pub</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>pub</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>pub</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>pub</Filter>
+    </ClInclude>
+    <ClInclude Include="idcard_config.h">
+      <Filter>idcard</Filter>
+    </ClInclude>
+    <ClInclude Include="idcard_define.h">
+      <Filter>idcard</Filter>
+    </ClInclude>
+    <ClInclude Include="idcard_http_util.h">
+      <Filter>idcard</Filter>
+    </ClInclude>
+    <ClInclude Include="idcard_manager.h">
+      <Filter>idcard</Filter>
+    </ClInclude>
+    <ClInclude Include="idcard_module.h">
+      <Filter>idcard</Filter>
+    </ClInclude>
+    <ClInclude Include="idcard_main_dlg.h" />
+    <ClInclude Include="idcard_app.h" />
+    <ClInclude Include="idcard_about_dlg.h" />
+    <ClInclude Include="idcard_gdiplus_util.h">
+      <Filter>idcard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\idcard_error.h">
+      <Filter>idcard</Filter>
+    </ClInclude>
+    <ClInclude Include="idcard_string_util.h">
+      <Filter>idcard</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>pub</Filter>
+    </ClCompile>
+    <ClCompile Include="idcard_config.cc">
+      <Filter>idcard</Filter>
+    </ClCompile>
+    <ClCompile Include="idcard_http_util.cc">
+      <Filter>idcard</Filter>
+    </ClCompile>
+    <ClCompile Include="idcard_manager.cc">
+      <Filter>idcard</Filter>
+    </ClCompile>
+    <ClCompile Include="idcard_module.cc">
+      <Filter>idcard</Filter>
+    </ClCompile>
+    <ClCompile Include="idcard_main_dlg.cc" />
+    <ClCompile Include="idcard_app.cc" />
+    <ClCompile Include="idcard_about_dlg.cc" />
+    <ClCompile Include="idcard_gdiplus_util.cc">
+      <Filter>idcard</Filter>
+    </ClCompile>
+    <ClCompile Include="idcard_string_util.cc">
+      <Filter>idcard</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\idcard_collector.ico">
+      <Filter>res</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="idcard_collector.rc">
+      <Filter>res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\idcard_collector.rc2">
+      <Filter>res</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="idcard_config.h" />
+    <ClInclude Include="idcard_manager.h" />
+    <ClInclude Include="idcard_module.h" />
+    <ClInclude Include="idcard_define.h" />
+    <ClInclude Include="..\..\inc\idcard_error.h" />
+    <ClInclude Include="idcard_http_util.h" />
+    <ClInclude Include="idcard_string_util.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="idcard_application.cc" />
+    <ClCompile Include="idcard_config.cc" />
+    <ClCompile Include="idcard_manager.cc" />
+    <ClCompile Include="idcard_module.cc" />
+    <ClCompile Include="idcard_http_util.cc" />
+    <ClCompile Include="idcard_string_util.cc" />
+  </ItemGroup>
+</Project>
